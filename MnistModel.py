@@ -38,5 +38,6 @@ print(a[-1][0])
 print(a[-1][0][tf.argmax(a[-1][0])])
 print(tf.argmax(a[-1][0]))
 
-plt.imshow(x_train[0])
-plt.show()
+print(model.summary())
+# plt.imshow(x_train[0])
+# plt.show()
